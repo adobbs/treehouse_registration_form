@@ -95,7 +95,7 @@ label:first-of-type {
 
 input[type="text"],
 input[type="email"],
-input[type="phone"],
+input[type="tel"],
 select,
 textarea,
 button {
@@ -162,18 +162,6 @@ button {
   color: #999;
 }
 
-/* Clearfix */
-
-.cf:before,
-.cf:after {
-    content: " ";
-    display: table;
-}
-
-.cf:after {
-    clear: both;
-}
-
 /* Styles for larger screens */
 
 @media screen and (min-width: 760px) {
@@ -189,7 +177,7 @@ button {
 
   input[type="text"],
   input[type="email"],
-  input[type="phone"],
+  input[type="tel"],
   select {
     display: inline-block;
     width: 575px;
